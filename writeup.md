@@ -94,10 +94,10 @@ This resulted in the following source and destination points:
 
 | Source        | Destination   | 
 |:-------------:|:-------------:| 
-| 595, 450      | 400, 0        | 
-| 689, 450      | 850, 0        |
-| 1105, 720     | 850, 720      |
-| 219, 720      | 400, 720      |
+| 582, 460      | 320, 0        | 
+| 705, 460      | 960, 0        |
+| 1101, 720     | 960, 720      |
+| 213, 720      | 320, 720      |
 
 I used a straight lane line image to verify perspective transform. If the lane lines appear parallel in the warped images, the perspective transform is succsessfully performed.
 
