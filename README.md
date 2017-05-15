@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
-
+[image0]: ./output_images/result.png "sample result"
 [image1]: ./output_images/calibration1.png "Calibration1"
 [image2]: ./output_images/calibration2.png "Calibration2"
 [image3]: ./output_images/binary_combo.png "Binary Example"
@@ -32,6 +32,10 @@ The goals / steps of this project are the following:
 [image7]: ./output_images/formula2.png "Radius of curvature formula"
 [image8]: ./output_images/pipeline.png "result of full pipeline"
 [video1]: ./project_video_out.mp4 "Processed Video"
+
+Here's a sample result before and after my software pipeline processed in a series of video :
+
+![alt text][image0]
 
 
 ## Camera Calibration
