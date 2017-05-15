@@ -66,7 +66,19 @@ The image is successfully undistorted after distortion correction.
 
 ### 2. Combination of edge detection to create a thresholded binary image.
 
-I used a combination of color and gradient thresholds to generate a binary image (thresholding steps are in the 12th code cell of the IPython notebook located in "./advanced_lane_lines_final.ipynb").  
+I used a combination of color and gradient thresholds to generate a binary image (thresholding steps are in the 12th code cell of the IPython notebook located in "./advanced_lane_lines_final.ipynb"). 
+
+The filters used are listed as follows :
+
+1. gradx == x direction sobel filter with kernel size = 3, threshold =(10,235)
+2. grady == y direction sobel filter with kernel size = 3, threshold =(50,255)
+3. mag_binary == magnitude sobel filter with kernel size = 3, threshold =(40,200)
+4. dir_binary == direction sobel filter, threshold =(0.7,1.2)
+5. s_binary == s filter , threshold =(180,255)
+
+The combination is :
+
+combined == s_binary | (gradx & grady) | (mag_binary & dir_binary)
 
 For robust edge detection of lane line finding, I also cropped lane line region using `region_of_interest()` function at the end of thresholded binary image generation pipeline (in the 8th code cell of the IPython notebook located in "./advanced_lane_lines_final.ipynb")
 
