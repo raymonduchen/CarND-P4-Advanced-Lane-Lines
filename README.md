@@ -86,7 +86,7 @@ Here's several test examples of my output :
 
 ![alt text][image3]
 
-### 3. Perspective transform to get birds-view image.
+### 3. Perspective transform to get birds-eye view image.
 
 The code for my perspective transform includes a function called `get_perspective()`, which appears in the 7th code cell of the IPython notebook located in "./advanced_lane_lines_final.ipynb").  The `get_perspective()` function takes as inputs an image (`img`), calibration parameters `mtx` , `dist`, source (`src`) and destination (`dst`) points.  I chose the hardcode the source and destination points in the following manner:
 
