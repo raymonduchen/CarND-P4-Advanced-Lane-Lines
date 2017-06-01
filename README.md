@@ -2,7 +2,7 @@
 
 ## Description
 
-**This my 4th project result of Udacity self-driving car nanodegree (CarND). It required to develop a robust software pipeline to indentify the lane boundaries, calculate curvature of radius of lane and estimate vehicle center offset with respect to lane center in a video.**
+**This my 4th project result of Udacity self-driving car nanodegree (CarND) term 1. It required to develop a robust software pipeline to indentify the lane boundaries, calculate curvature of radius of lane and estimate vehicle center offset with respect to lane center in a video.**
 
 * Udacity self-driving car nanodegree (CarND) :
 
